@@ -5,7 +5,7 @@ if [[ $key == long ]]; then
 sleep 2
 echo "Xác Thực Thành Công !" 
 sleep 1
-bash <(curl -Ls https://raw.githubusercontent.com/azvpn/xrayr/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/azvpn/status/main/luachon.sh)
 elif [[ $key == key2 ]]; then
 sleep 2
 echo "Xác Thực Thành Công !" 
