@@ -1,11 +1,11 @@
 #!/bin/bash
 read -p "Key: " key
 
-if [[ $key == long ]]; then
+if [[ $key == binh ]]; then
 sleep 2
 echo "Xác Thực Thành Công !" 
 sleep 1
-bash <(curl -Ls https://raw.githubusercontent.com/azvpn/status/main/luachon.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/binhvui06/status/main/luachon.sh)
 elif [[ $key == key2 ]]; then
 sleep 2
 echo "Xác Thực Thành Công !" 
